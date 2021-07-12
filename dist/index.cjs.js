@@ -1888,7 +1888,7 @@ var Icon$P = function (props) {
 var Logo = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
-        React__default['default'].createElement("image", { width: "205", height: "26", href: isDark ? "/images/mxs/LogoTextNewDark.png" : "/images/mxs/LogoTextNewWhite.png" })));
+        React__default['default'].createElement("image", { width: "78", height: "26", href: isDark ? "/images/mxs/LogoTextNewDark.png" : "/images/mxs/LogoTextNewWhite.png" })));
 };
 
 var Icon$Q = function (props) {
@@ -2868,7 +2868,7 @@ var baseColors = {
     primary: "#29c5e1",
     primaryBright: "#29c5e1",
     primaryDark: "#29c5e1",
-    secondary: "#7645D9",
+    secondary: "#1de4ce",
     success: "#31D0AA",
     warning: "#FFB237",
 };
