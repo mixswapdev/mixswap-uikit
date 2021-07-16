@@ -39,6 +39,7 @@ const Panel: React.FC<Props> = (props) => {
   return (
     <StyledPanel isPushed={isPushed} showMenu={showMenu}>
       <PanelBody {...props} />
+      <img src="https://rugdoc.io/assets/2021/06/rugdoc-review-badge-with-glow.png" />
       <PanelFooter {...props} />
     </StyledPanel>
   );
